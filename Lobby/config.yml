@@ -1,0 +1,38 @@
+Mensagens:
+  Join: "&7[&a+&7] %player%"
+  Quit: "&7[&4-&7] %player%"
+
+Configuration:
+  clearInventory: true
+  setBackground: true
+  JoinMenssage: true
+  QuitMenssage: true
+  
+Itens:
+  compass:
+    id: 345
+    pos: 1
+    name: "&a&lSERVIDORES"
+    lore:
+    - "Click para ver os servidores"
+    gui: "SERVIDORES"
+    comando: {}
+    
+Guis:
+  SERVIDORES:
+    name: '&a&lSERVIDORES'
+    background: false
+    size: 27
+    itens:
+      Rankup:
+        id: 399
+        data: 0
+        pos: 13
+        glow: true
+        name: '&cRankup'
+        lore:
+        - '&cClick para entrar no servidor rankup'
+        comando:
+        - /server rankup
+        mensagem:
+        - '&7[&b&lS&7peedy&f&lN&7etwork] &a%player% &eentrou no servidor&6 %server%'

@@ -1,0 +1,9 @@
+name: Lobby
+version: 1.0
+main: me.smokedev.speedynetwork.Main
+
+commands:
+  admin:
+    description: abre o menu gui com os servidores.
+  setlobby:
+    description: abre o menu gui com os servidores.
