@@ -1,0 +1,17 @@
+#SMOKEDEV - Contato >> blooltcraft@gmail.com
+Config:
+  Mensagem:
+    ativar: true
+    msg: "&a[S_Spawn] &cTeletransportando para o spawn!"
+  Teleport:
+    Quando-Entrar: true
+    Mundos-permitidos:
+    - "World"
+    
+Spawn:
+  X: 0.0
+  Y: 0.0
+  Z: 0.0
+  Yaw: 0.00
+  Pitch: 0.00
+  World: "world"

@@ -1,0 +1,9 @@
+name: S_Spawn
+version: 1.0
+main: me.smoekdev.speedynetwork.s_spawn.Main
+
+Commands:
+  setspawn:
+    description: nukke
+  spawn:
+    description: nukke
