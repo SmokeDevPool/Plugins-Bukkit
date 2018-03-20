@@ -1,13 +1,28 @@
-#SMOKEDEV - Contato >> blooltcraft@gmail.com
+
+# ########################################### #
+# SMOKEDEV - Contato >> blooltcraft@gmail.com #
+# #############################################
+
 Config:
+#configuração das mensagens
   Mensagem:
+    #aqui ativa ou desativa as mensagens, false pra desativar e true para ativar
     ativar: true
-    msg: "&a[S_Spawn] &cTeletransportando para o spawn!"
+    #se caso nao deseja mostrar a mensagem de teleportado coloque "none" com aspas
+    teleportado: "&a[S_Spawn] &cVocê foi para o spawn!"
+    #se caso nao queira mostrar a mensagem teleportando coloque "none" com as aspas
+    teleportando: "&a[S_Spawn] &aIndo para o spawn em &7%time%&a segundos!"
   Teleport:
     Quando-Entrar: true
     Mundos-permitidos:
     - "World"
-    
+  Delay:
+    #true ativa o delay, false desativa
+    ativar: true
+    #tempo em segundo que o jogador tem que esperar para o teleport
+    time: 3
+
+#As cordenadas do spawn
 Spawn:
   X: 0.0
   Y: 0.0

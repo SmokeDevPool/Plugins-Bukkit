@@ -1,0 +1,87 @@
+# 
+#    #CRIAÇÃO DE ITENS - SEGUE-SE O TUTORIAL;
+#    '1': <- caso for criar outro item deve colocar um indentificado nao pode ser igual ou repetitivo; numeros de 1 a 1000... 
+#      ItemGUI: <- Configuração do Item que vai ficar no menu GUI
+#        ID: 22 <- ID do item que vai representar;
+#        Data: 0 <- caso o item tiver data coloque aqui caso nao tenha deixe zero mesmo
+#        Nome: '&9&lLapis Azul' <- nome do item representativo;
+#        Slot: 10 <- posição do item no inventario lembrando que tem que estar no limite do tamanho do inventario;
+#        Lore:
+#          ativar: true <- se quiser lore no item representativo ative usando true e false para desativar
+#          descricao: '&9Transforme seus lapis azul em bloco' <- o texto que vai ficar na lore do item; use "\n" para quebra linha caso desejar
+#      compactar: <- *Configuração do item que sera compactado* 
+#        item-config:
+#          IDFROM: '351:4' <- o item que sera usado para se transforma;
+#          IDTO: '22:0' <- o item que vai ser dps de transformado;
+#          PERMISSAO: exemplo.membro <- permissao do item que ira compactar
+#          MATERIAL: INK_SACK <- aqui e o nome do material type encontra os nomes todos aqui -> https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+
+Menu:
+  Nome: '&5&lCompactador de Itens'
+  tamanho: 45
+  Mensagens:
+    compactado: "&a\xbb Seus itens foram compactados!"
+    erro: "&c\xbb Voce precisa ter os itens necessario para ser compactado..."
+  Itens:
+    '1':
+      ItemGUI:
+        ID: 22
+        Data: 0
+        Nome: '&9&lLapis Azul'
+        Slot: 10
+        Lore:
+          ativar: true
+          descricao: '&9Transforme seus lapis azul em bloco'
+      compactar:
+        item-config:
+          IDFROM: '351:4'
+          IDTO: '22:0'
+          PERMISSAO: exemplo.membro
+          MATERIAL: INK_SACK
+    '2':
+      ItemGUI:
+        ID: 165
+        Data: 0
+        Nome: '&a&lSlime'
+        Slot: 12
+        Lore:
+          ativar: true
+          descricao: '&aTransforme suas Bolas de Slime para bloco'
+      compactar:
+        item-config:
+          IDFROM: '341:0'
+          IDTO: '165:0'
+          PERMISSAO: exemplo.membro
+          MATERIAL: SLIME_BALL
+    '3':
+      ItemGUI:
+        ID: 266
+        Data: 0
+        Nome: '&6&lPepita de Ouro'
+        Slot: 14
+        Lore:
+          ativar: true
+          descricao: '&6Transforme suas pepita em lingote de ouro'
+      compactar:
+        item-config:
+          IDFROM: '371:0'
+          IDTO: '266:0'
+          PERMISSAO: exemplo.membro
+          MATERIAL: GOLD_NUGGET
+    '4':
+      ItemGUI:
+        ID: 173
+        Data: 0
+        Nome: "&0&lCarv\xc3\xa3o"
+        Slot: 16
+        Lore:
+          ativar: true
+          descricao: "&8Transforme suas seus carv\xc3\xa3o em bloco"
+      compactar:
+        item-config:
+          IDFROM: '263:0'
+          IDTO: '173:0'
+          PERMISSAO: exemplo.membro
+          MATERIAL: COAL
+config:
+  yml: true

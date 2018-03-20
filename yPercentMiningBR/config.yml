@@ -1,0 +1,56 @@
+#Os minerios que o cara vai minerar para pode achar os itens
+Minerios:
+- 121
+- 21
+- 112
+#Chance dos item vim quando o player estiver minerando quanto mais maior mais dificil fica
+Chance: 80.0
+#Se quiser que drope os itens deixe true, se tiver false vai setar os itens no direto inventario do player!
+Dropar_Itens: true
+#aqui os itens que vai dar
+Dar_Itens:
+#Para colocar itens com encantamentos ou nome
+#ID:DATA-QUANTIA-NOME-ENCANTAMENTO:NIVEL-PORCENTAGEM_DO_ITEM_VIM
+#Para colocar itens sem encantamentos ou nome utilize 0 assim
+#ID:DATA-QUANTIA-0-0-PORCENTAGEM_DO_ITEM_VIM
+#Itens sem data use apenas o ID
+# EX: ID-QUANTIA-0-0-PORCENTAGEM_DO_ITEM_VIM sem nome | EX2: ID-QUANTIA-Nome-ENCANTAMENTO:NIVEL-PORCENTAGEM_DO_ITEM_VIM
+#Caso queira mais de um encantamento utilize "," nos encantamento
+#Ex: 276-1-&cEspada do Smoke-afiada:5,fire:2-100
+#Entantamentos:
+#DAMAGE_ALL = Afiada
+#DAMAGE_ARTHROPODS = Ruina dos artrópodes
+#DAMAGE_UNDEAD = Julgamento
+#DIG_SPEED = eficiencia
+#DURABILITY = inqbravel
+#FIRE_ASPECT = Aspecto flamejante
+#KNOCKBACK = repulcao
+#LOOT_BONUS_BLOCKS = fortuna
+#LOOT_BONUS_MOBS = pilhagem
+#OXYGEN = Respiracao
+#PROTECTION_ENVIRONMENTAL = protecao
+#PROTECTION_EXPLOSIONS = protecao contra explosao
+#PROTECTION_FALL = peso de pena
+#PROTECTION_FIRE = protecao contra fogo
+#PROTECTION_PROJECTILE = protecao contra projects
+#SILK_TOUCH = toque suave
+#ARROW_FIRE = chamas
+#ARROW_DAMAGE = forca
+#ARROW_KNOCKBACK = impacto
+#ARROW_INFINITE = infinidade
+- "19-1-&e&lEsponja-DAMAGE_ALL:10,FIRE_ASPECT:10-100"
+- "322:1-1-0-0-100"
+#Escolha ativar mensagem é privada
+Ativar_Mensagem: false
+Mensagem: "&cvoce achou um item valioso minerando"
+#Ative a mensagem do broadcast todos os players vao ver...
+Ativar_Mensagem_global: true
+Mensagem_global: "&3[Minerio] &b{player} &7achou um minerio valioso minerando"
+#Comandos que vai executar ao player achar algo
+Ativar_Comandos: true
+Comandos:
+#Quando ele achar algo que tiver na porcentagem da linha 7, ele vai dar tal porcentagem para executar um comando.
+  Chance: 10.0
+#aqui fica os comandos que sera executado
+  Executar:
+  - "say Smoke Foda"

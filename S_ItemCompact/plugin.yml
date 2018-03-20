@@ -1,0 +1,9 @@
+﻿name: S_ItemCompact
+version: 1.0
+main: me.smokedev.S_ItemCompact.Main
+
+commands:
+  itemcompact:
+    description: use to compact itens in your inventory
+    usage: /<command>
+    aliases: [compact, compactar]
