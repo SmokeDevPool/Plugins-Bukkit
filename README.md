@@ -1,7 +1,11 @@
 <html>
   <head>
-    <meta charset="utf-8"/> 
-    <title> SmokeDev </title>
+    <meta charset="utf-8"/>
+    <style>
+     body{
+      background-color: #000;
+      }
+    </style>
   </head>
   
   <body>
