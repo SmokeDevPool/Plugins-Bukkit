@@ -1,4 +1,2 @@
 
-![](html)<center>
-![](url)<img src="icon.png" alt="SmokeDev Open Source Codes" width="64px" height="64px"/>
-![](html)</center>
+![](html)<center>![](url)<img src="icon.png" alt="SmokeDev Open Source Codes" width="64px" height="64px"/>
