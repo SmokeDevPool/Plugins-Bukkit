@@ -1,3 +1,3 @@
-![Image Icone](icon.png | width=64)
+![Image Icone](url)<img src="icon.png">
 
 :alien: @SmokeDevPool
