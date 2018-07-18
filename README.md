@@ -1,2 +1,3 @@
-![Icone](icon.png =64x64)
+![Image Icone](icon.png | width=64)
+
 :alien: @SmokeDevPool
