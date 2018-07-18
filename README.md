@@ -1,2 +1,1 @@
-![Image Icone](url)<img data-canonical-src="icon.png" width="64px" height="64px"/>
-:alien: @SmokeDevPool
+![](url)<img src="icon.png" alt="SmokeDev Open Source Codes" width="64px" height="64px"/>
