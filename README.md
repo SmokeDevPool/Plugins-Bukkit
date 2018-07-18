@@ -1,3 +1,2 @@
-![GitHub Logo](icon.png)
-Format: ![Alt Text](url) ![Width]
+![Image of Icon](icon.png)
 *@SmokeDevPool*
